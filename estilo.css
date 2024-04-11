@@ -1,3 +1,35 @@
 p{
+    color: cadetblue;
+    font-weight: 300;
+    background-color: whitesmoke;
+    font-style: oblique;
+}
+
+.contacto{
+    background-color: aliceblue;
+    color: blue;
+    font-style: normal;
+}
+
+.Nombre{
     color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+.Datos{
+    color: gray;
+    font-weight: bold;
+    font-size: larger ;
+    font-style: oblique;
+}
+
+.Lista{
+    color: cadetblue;
+}
+
+.Preguntas{
+    color: darkcyan;
+    font-size: large;
 }

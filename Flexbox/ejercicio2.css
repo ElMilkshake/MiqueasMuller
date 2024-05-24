@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 300px; 
+    background-color: #f0f0f0;
+    flex-direction: row-reverse;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.box {
+    width: 800px;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+    color: #ffffff;
+}
+
+.blue {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.green {
+    background-color: green;
+    color: #ffffff;
+}

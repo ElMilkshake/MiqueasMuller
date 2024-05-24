@@ -1,0 +1,36 @@
+.container {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.red {
+    background-color: red;
+    color: #ffffff;
+}
+
+.blue {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.green {
+    background-color: green;
+    color: #ffffff;
+}

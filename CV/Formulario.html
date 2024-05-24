@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+
+        <p class="completaesteformulario">Completa el Formulario</p>
+        <form class="partesformulario" action="">
+            <p>
+                <label for="nom">Nombre</label>
+                <input type="text" name="Nombre">
+            </p>
+            <p>
+                <label for="nom">Apellido</label>
+                <input type="text" name="Apellido">
+            </p>
+            <p>
+                <label for="pass">Contraseña</label>
+                <input type="password" name="Contraseña">
+            </p>
+            <label for="Sexo">Sexo</label>
+            <ul>
+                <li>
+                    <label>Hombre</label>
+                    <input type="radio" name="Sexo" value="Hombre">
+                </li>
+                <li>
+                    <label>Mujer</label>
+                    <input type="radio" name="Sexo" value="Mujer">
+                </li>
+            </ul>
+            <ul>
+                <label>Hobbies</label>
+            </ul>
+            <ul>
+                <li>
+                    <label for="Bailar">Bailar</label>
+                    <input type="checkbox" name="Hobbies[]" id="Bailar">
+                </li>
+                <li>
+                    <label for="Cantar">Cantar</label>
+                    <input type="checkbox" name="Hobbies[]" id="Cantar">
+                </li>
+                <li>
+                    <label for="Nadar">Nadar</label>
+                    <input type="checkbox" name="Hobbies[]" id="Nadar">
+                </li>
+                <li>
+                    <label for="Correr">Correr</label>
+                    <input type="checkbox" name="Hobbies[]" id="Correr">
+                </li>
+            </ul>
+            <p>
+                <label for="Título">Título</label>
+                <select name="Título" id="Título">
+                    <option value="Primario">Primario</option>
+                    <option value="Secundario">Secundario</option>
+                    <option value="Terciario">Terciario</option>
+                    <option value="Universitario">Universitario</option>
+                </select>
+            </p>
+            <p>
+                <label for="Comentarios">Comentarios</label>
+                <textarea name="Comentarios" id="Comentarios"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </body>
+
+    </html>

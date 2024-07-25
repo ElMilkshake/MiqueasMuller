@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 const Nav = (props) => {
     return (
-        <div>
-            <ul class="holder">
-                <li><a class="activo" href="index.html">Muebles</a></li>
-                <li><a href="decoraciones.html">Decoraciones</a></li>
-                <li><a href="diseños.html">Diseños</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        <nav>
+            <ul className="holder">
+                <li><Link to="index.html">Muebles</Link></li>
+                <li><Link to="decoraciones.html">Decoraciones</Link></li>
+                <li><Link to="diseños.html">Diseños</Link></li>
+                <li><Link to="nosotros.html">Nosotros</Link></li>
+                <li><Link to="contacto.html">Contacto</Link></li>
             </ul>
-        </div>
-
+        </nav>
     );
 }
+
 
 export default Nav;

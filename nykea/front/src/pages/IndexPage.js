@@ -2,24 +2,6 @@ const IndexPage = (promps) => {
     return (
 
         <body>
-
-            <header>
-                <div className="holder">
-                    <img src="img/index/NykeaLogo.png" alt="Logo" height="150px" />
-                    <h1>NYKEA MUEBLERIA</h1>
-                </div>
-            </header>
-
-            <nav>
-                <ul class="holder">
-                    <li><a class="activo" href="index.html">Muebles</a></li>
-                    <li><a href="decoraciones.html">Decoraciones</a></li>
-                    <li><a href="diseños.html">Diseños</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
             <main>
                 <div className="contenedor1">
                     <div className="productosmuebles">
@@ -47,12 +29,6 @@ const IndexPage = (promps) => {
                     </aside>
                 </div>
             </main>
-
-
-            <footer>
-                <p>Diseñado por Miqueas Müller - 2024</p>
-            </footer>
-
         </body>
 
 

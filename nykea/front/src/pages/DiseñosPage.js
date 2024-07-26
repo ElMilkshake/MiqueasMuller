@@ -2,25 +2,6 @@ const DiseñosPage = (promps) => {
     return (
 
         <body>
-
-            <header>
-                <div className="holder">
-                    <img src="img/NykeaLogo.png" alt="Logo" width="100px" />
-                    <h1>NYKEA MUEBLERIA</h1>
-                </div>
-            </header>
-
-            <nav>
-                <ul className="holder">
-                    <li><a class="activo" href="index.html">Muebles</a></li>
-                    <li><a href="decoraciones.html">Decoraciones</a></li>
-                    <li><a href="diseños.html">Diseños</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-
             <h3 className="h3zonas">Diseños para Living</h3>
             <div className="diseñosliving">
                 <div className="diseños"><img src="img diseños/diseñoliving1.png" alt="living1" width="250px"
@@ -109,11 +90,6 @@ const DiseñosPage = (promps) => {
                     laborum
                     fugiat odio tempore temporibus id?</p>
             </aside>
-
-            <footer>
-                <p>Diseñado por Miqueas Müller - 2024</p>
-            </footer>
-
         </body>
 
     )

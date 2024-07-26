@@ -2,24 +2,6 @@ const ContactoPage = (promps) => {
     return (
 
         <body>
-
-            <header>
-                <div className="holder">
-                    <img src="img/NykeaLogo.png" alt="Logo" width="100px" />
-                    <h1>NYKEA MUEBLERIA</h1>
-                </div>
-            </header>
-
-            <nav>
-                <ul className="holder">
-                    <li><a class="activo" href="index.html">Muebles</a></li>
-                    <li><a href="decoraciones.html">Decoraciones</a></li>
-                    <li><a href="diseños.html">Diseños</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
             <main className="holder contacto">
                 <div>
                     <h2>Contacto Rápido</h2>
@@ -62,10 +44,6 @@ const ContactoPage = (promps) => {
                     </ul>
                 </div>
             </main>
-
-            <footer>
-                <p>Diseñado por Miqueas Müller - 2024</p>
-            </footer>
         </body>
     )
 }

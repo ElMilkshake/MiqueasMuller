@@ -1,14 +1,12 @@
-import Nav from "./Nav";
-
 const Header = (props) => {
     return (
         <>
             <header>
-                <div>
+                <div class="holder">
+                    <img src="img/NykeaLogo.png" alt="Logo" width="100px" />
                     <h1>NYKEA MUEBLERIA</h1>
                 </div>
             </header>
-            <Nav />
         </>
 
     );

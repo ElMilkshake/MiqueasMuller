@@ -3,7 +3,7 @@ const Header = (props) => {
         <>
             <header>
                 <div class="holder">
-                    <img src="img/NykeaLogo.png" alt="Logo" width="100px" />
+                    <img src="/img/index/NykeaLogo.png" alt="Logo" width="100px" />
                     <h1>NYKEA MUEBLERIA</h1>
                 </div>
             </header>

@@ -1,0 +1,40 @@
+    .diseñosliving{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* justify-content: center; */
+        background-color: rgb(228, 234, 255);
+        border-top: solid rgb(128, 128, 128);
+        border-bottom: solid rgb(128, 128, 128);
+    }
+
+    .diseñoscomedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(254, 228, 228);
+        border-top: solid rgb(128, 128, 128);
+        border-bottom: solid rgb(128, 128, 128);
+    }
+
+    .diseñospatio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(236, 255, 231);
+        border-top: solid rgb(128, 128, 128);
+        border-bottom: solid rgb(128, 128, 128);
+    }
+
+    .diseños{
+        margin: 10px;
+    }
+
+    main h3{
+        font-size: 25px;
+        font-family: "Inconsolata", monospace;
+    }
+    
+    .h3zonas{
+        text-align: center;
+    }

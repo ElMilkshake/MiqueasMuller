@@ -1,3 +1,5 @@
+import '../styles/pages/Contacto.css'
+
 const ContactoPage = (promps) => {
     return (
 

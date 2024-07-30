@@ -1,0 +1,39 @@
+.productosmuebles{
+    display: flex;
+    background-color: rgb(186, 184, 184);
+}
+
+.linkfacebook{
+    color: rgb(8, 58, 222);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.linkyoutube{
+    color: rgb(222, 8, 26);
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.linkinstagram{
+    color: rgb(197, 7, 226);
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+main p{
+    font-size: 20px;
+}
+
+.RedesSociales{
+    font-size: 25px;
+}
+
+main{
+    background-color: rgb(205, 205, 205);
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}

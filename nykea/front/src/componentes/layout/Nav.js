@@ -1,15 +1,16 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = (props) => {
     return (
         <nav>
             <div>
                 <ul>
-                    <li><Link to="/">Muebles</Link></li>
-                    <li><Link to="/DecoracionesPage">Decoraciones</Link></li>
-                    <li><Link to="/DiseñosPage">Diseños</Link></li>
-                    <li><Link to="/NosotrosPage">Nosotros</Link></li>
-                    <li><Link to="/ContactoPage">Contacto</Link></li>
+                    <li><NavLink to="/" className={({ isActive }) => isActive ? "activo" : undefined}>Muebles</NavLink></li>
+                    <li><NavLink to="/DecoracionesPage" className={({ isActive }) => isActive ? "activo" : undefined}>Decoraciones</NavLink></li>
+                    <li><NavLink to="/DiseñosPage" className={({ isActive }) => isActive ? "activo" : undefined}>Diseños</NavLink></li>
+                    <li><NavLink to="/NosotrosPage" className={({ isActive }) => isActive ? "activo" : undefined}>Nosotros</NavLink></li>
+                    <li><NavLink to="/ContactoPage" className={({ isActive }) => isActive ? "activo" : undefined}>Contacto</NavLink></li>
                 </ul>
             </div>
         </nav>

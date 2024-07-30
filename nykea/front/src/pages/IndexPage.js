@@ -1,3 +1,5 @@
+import '../styles/pages/Nykea.css'
+
 const IndexPage = (promps) => {
     return (
 

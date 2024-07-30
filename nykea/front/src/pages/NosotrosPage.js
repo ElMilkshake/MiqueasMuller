@@ -1,3 +1,5 @@
+import '../styles/pages/Nosotros.css'
+
 const NosotrosPage = (promps) => {
     return (
 
@@ -31,8 +33,8 @@ const NosotrosPage = (promps) => {
                 </div>
                 <div className="holder">
                     <h3 className="RedesSociales">Nuestras redes sociales!</h3>
-                    <a className="linkinstagram  " href="https://www.instagram.com/">Instagram</a>
-                    <a className="linkyoutube" href="https://www.youtube.com/">Youtube</a>
+                    <a className="linkinstagram  " href="https://www.instagram.com/">Instagram </a>
+                    <a className="linkyoutube" href="https://www.youtube.com/">Youtube </a>
                     <a className="linkfacebook" href="https://www.facebook.com/">Facebook</a>
                 </div>
             </main>

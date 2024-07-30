@@ -1,0 +1,79 @@
+p{
+    padding-left: 12px;
+    font-family: "Inconsolata", monospace;
+    font-size: 18px;
+}
+
+.contacto{
+/*     background-color: rgb(203, 203, 203);
+    border-left: solid 5px rgb(166, 166, 166);
+    border-right: solid 5px rgb(166, 166, 166); */
+    display: flex;
+    gap: 24px;
+    padding-bottom: 10px;
+}
+
+.contacto h2{
+    font-family: "Inconsolata", monospace;
+    color: rgb(91, 91, 91);
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.contactos p{
+    font-size: 22px;
+}
+
+.contactos ul li{
+    font-size: 20px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(5){
+    align-items: start;
+}
+
+.formulario input[type= "reset"],
+.formulario input[type= "submit"]{
+    background: #6da9ed;
+    box-shadow: 0 0 7px #303030;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.formulario input[type= "reset"]:hover,
+.formulario input[type= "submit"]:hover {
+    background-color: #4b98ef;
+}

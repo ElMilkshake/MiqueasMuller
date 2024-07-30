@@ -1,0 +1,28 @@
+ .productosdecoraciones {
+    /* width: 75%; 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(186, 184, 184); */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(192, 191, 192);
+    width: 75%;
+    padding-right: 10px;
+}
+
+ .decoraciones {
+     margin: 10px;
+}
+
+aside {
+    width: 25%;
+    background-color: rgba(191, 194, 193, 0.875) ;
+    box-sizing: border-box;
+    border-left: solid 5px gray;
+}
+
+aside p{
+    padding-left: 12px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+}

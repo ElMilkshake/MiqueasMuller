@@ -1,38 +1,64 @@
-.App {
+header {
+  background: rgb(192, 191, 192);
+  padding: 18px;
+  color: rgb(255, 255, 255);
+  height: 100px;
+  font-style: italic;
+}
+
+header h1 {
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  margin-left: 10px;
+  font-family: "Inconsolata", monospace;
+  font-size: 40px;
+}
+
+nav {
+  background-color: rgb(166, 165, 165);
+  margin-top: -16px;
+  height: 30px;
+}
+
+ul {
+  /*background-color: rgb(191, 190, 190);*/
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  flex-grow: 1;
+  font-family: "Inconsolata", monospace;
+  display: flex;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li a:hover {
+  background-color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+  background-color: rgb(166, 166, 166);
+  clear: both;
+  color: #000000;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li a.activo {
+  background-color: gray;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.holder {
+  max-width: 1200px;
+  margin: 0% auto;
 }

@@ -1,3 +1,5 @@
+import '../styles/pages/Diseños.css'
+
 const DiseñosPage = (promps) => {
     return (
 

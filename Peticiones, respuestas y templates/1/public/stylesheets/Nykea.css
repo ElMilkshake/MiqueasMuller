@@ -1,0 +1,26 @@
+/*font-family: "Raleway", sans-serif;*/
+header {
+    background: rgb(192, 191, 192);
+    padding: 18px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    font-style: italic;
+}
+
+header h1 {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+    font-family: "Inconsolata", monospace;
+    font-size: 40px;
+}
+
+footer{
+    background-color: rgb(166, 166, 166);
+    clear: both;
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}

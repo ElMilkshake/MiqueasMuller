@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 require('dotenv').config();
-var session = requiere('express-session')
+var session = requiere('express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');

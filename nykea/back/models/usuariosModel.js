@@ -1,5 +1,5 @@
-var pool = requiere('./bd');    //llamado de datos BD
-var md5 = requiere('./md5');
+var pool = require('./bd');    //llamado de datos BD
+var md5 = require('md5');
 
 async function getUserByUsernameAndPassword(user, password) {
     try {

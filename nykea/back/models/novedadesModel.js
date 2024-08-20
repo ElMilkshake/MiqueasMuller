@@ -18,4 +18,4 @@ async function insertNovedad(obj) {
     }// cierra-catch
 }//cierra insert
 
-module.exports = { getNovedades }
+module.exports = { getNovedades, insertNovedad }

@@ -80,18 +80,6 @@ const DiseñosPage = (promps) => {
                     height="200px" />
                 </div>
             </div>
-
-            <aside>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, reiciendis, quas sapiente
-                    facilis corrupti vitae, quia magni a porro soluta quam tempore ipsam? Ducimus blanditiis
-                    voluptas
-                    facilis dolore maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Recusandae velit
-                    facilis cumw omnis numquam ipsa at consequatur quis nisi qui. Facilis quaerat deleniti
-                    deserunt
-                    laborum
-                    fugiat odio tempore temporibus id?</p>
-            </aside>
         </body>
 
     )
